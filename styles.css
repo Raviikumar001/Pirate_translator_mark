@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+}
+
+
+
+.head
+{
+    background-color: Green;
+    height: 15vh;
+    
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.head h2{
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+.img-p img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+ 
+  
+
+ 
+  
+  #output-div {
+    background-color:yellow;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Rampart One', cursive;
+    padding: 0.5rem;
+    border:2px solid navy;
+    border-radius: 4px;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    background-color: azure;
+  }
+  
+  textarea {
+    height: 15vh;
+    width: 50vw;
+    margin: 1rem 1rem 0.5rem 1rem;
+    border-radius: 2px;
+  }
+  
+  #translate-btn {
+    color: navy;
+    background-color: yellow;
+    font-family: 'Rampart One', cursive;
+    font-weight: bolder;
+    font-size: large;
+    padding: 2rem;
+  
+    align-content: center;
+    border-radius: 10px;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-footer{
+
+     background: black;
+    padding: 32px;
+    margin-top: 48px; 
+
+     
+    
+    height: 10vh;
+     
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    
+}
+
+
+  .main-footer__links{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.main-footer__link{
+   display:inline-block;
+   margin: 20px 16px;
+}
+
+.main-footer__link a{
+   color: white;
+   text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+color: #ccc;
+} 
